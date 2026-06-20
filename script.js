@@ -163,7 +163,7 @@ text:"Let your smile never fade away 🫂"
 },
 
 {
-img:"assets/photos/photo9.jpg",
+img:"assets/photos/photo9.JPG",
 title:"🫶",
 text:"One as each others support and strength"
 },
