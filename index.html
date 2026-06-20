@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Father's Day Appaji♥️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+<source src="assets/audio/music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOGIN PAGE -->
+
+<section id="loginPage" class="page active">
+
+<div class="overlay"></div>
+
+<div class="login-card">
+
+<div class="photo-section">
+
+<div class="polaroid">
+
+<img src="assets/photos/bike.jpg">
+
+<h3>Murthy ❤️</h3>
+
+</div>
+
+</div>
+
+<div class="keypad-section">
+
+<h1>Murthy's Secret Scrapbook</h1>
+
+<p>Father's Day Surprise ❤️</p>
+
+<div id="pinDisplay">
+○ ○ ○ ○ ○ ○ ○ ○
+</div>
+
+<div class="keypad">
+
+<button onclick="addDigit('1')">1</button>
+<button onclick="addDigit('2')">2</button>
+<button onclick="addDigit('3')">3</button>
+
+<button onclick="addDigit('4')">4</button>
+<button onclick="addDigit('5')">5</button>
+<button onclick="addDigit('6')">6</button>
+
+<button onclick="addDigit('7')">7</button>
+<button onclick="addDigit('8')">8</button>
+<button onclick="addDigit('9')">9</button>
+
+<button onclick="clearPin()">⌫</button>
+<button onclick="addDigit('0')">0</button>
+<button onclick="checkPassword()">❤️</button>
+
+</div>
+
+<p id="error"></p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GIFT -->
+
+<section id="giftPage" class="page">
+
+<div class="gift-box" onclick="openGift()">
+🎁
+</div>
+
+<h2>Tap The Gift</h2>
+
+</section>
+
+<!-- MEMORY -->
+
+<section id="memoryPage" class="page">
+
+<div class="memory-card">
+
+<img id="memoryImage">
+
+<h2 id="memoryTitle"></h2>
+
+<p id="memoryText"></p>
+
+<div class="memory-buttons">
+
+<button onclick="prevMemory()">
+⬅ Previous
+</button>
+
+<button onclick="nextMemory()">
+Next ➡
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- AWARD PAGE -->
+
+<section id="awardPage" class="page">
+
+<div class="award-card">
+
+    <img src="assets/photos/last.jpg"
+         class="award-photo">
+
+    <h1>🏆</h1>
+
+    <h2>WORLD'S BEST DAD</h2>
+
+    <h3>Murthy Appaji ❤️</h3>
+
+    <p>
+        Thank you for every sacrifice,
+        every lesson,
+        every smile,
+        and every dream you helped us achieve.
+    </p>
+
+    <div class="memory-buttons">
+
+        <button onclick="backToMemory()">
+            ⬅ Previous
+        </button>
+
+        <button onclick="showFinal()">
+            Final Surprise ❤️
+        </button>
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- FINAL -->
+
+<section id="finalPage" class="page">
+
+    <div class="spotlight"></div>
+
+    <div class="final-card">
+
+        <img
+        src="assets/photos/photo10.jpg"
+        class="final-photo">
+
+        <h1 class="final-title">
+            Murthy Appaji♥️
+        </h1>
+
+        <p class="final-message">
+
+            No matter how old we become,
+
+            <br><br>
+
+            We will always be your little childrens ♥️
+
+            <br><br>
+
+            Thank you for every sacrifice.
+
+            <br>
+
+            Thank you for every lesson.
+
+            <br>
+
+            Thank you for every smile.
+
+            <br><br>
+
+            Happy Father's Day Appaji ♥️
+
+        </p>
+
+        <div class="memory-buttons">
+
+            <button onclick="backToAward()">
+                ⬅ Previous
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
