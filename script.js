@@ -25,7 +25,7 @@ let pin = "";
 
 function addDigit(num){
 
-if(pin.length<8){
+if(pin.length<4){
 
 pin += num;
 
@@ -68,7 +68,7 @@ document
 
 function checkPassword(){
 
-if(pin==="13"){
+if(pin==="1322"){
 
 document
 
@@ -117,7 +117,7 @@ const memories=[
 {
 img:"assets/photos/photo1.jpg",
 title:"❤️",
-text:"To see you again as a small boy with inocent face "
+text:"To see you again as a small boy with innocent face "
 },
 
 {
